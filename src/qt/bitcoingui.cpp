@@ -69,7 +69,7 @@ BitcoinGUI::BitcoinGUI(QWidget *parent) :
     prevBlocks(0)
 {
     restoreWindowGeometry();
-    setWindowTitle(tr("Litecoin") + " - " + tr("Wallet"));
+    setWindowTitle(tr("MapleCoin") + " - " + tr("Wallet"));
 #ifndef Q_OS_MAC
     QApplication::setWindowIcon(QIcon(":icons/bitcoin"));
     setWindowIcon(QIcon(":icons/bitcoin"));
@@ -213,7 +213,7 @@ void BitcoinGUI::createActions()
     quitAction->setStatusTip(tr("Quit application"));
     quitAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Q));
     quitAction->setMenuRole(QAction::QuitRole);
-    aboutAction = new QAction(QIcon(":/icons/bitcoin"), tr("&About Litecoin"), this);
+    aboutAction = new QAction(QIcon(":/icons/bitcoin"), tr("&About MapleCoin"), this);
     aboutAction->setStatusTip(tr("Show information about Litecoin"));
     aboutAction->setMenuRole(QAction::AboutRole);
     aboutQtAction = new QAction(QIcon(":/trolltech/qmessagebox/images/qtlogo-64.png"), tr("About &Qt"), this);
@@ -233,7 +233,7 @@ void BitcoinGUI::createActions()
     changePassphraseAction = new QAction(QIcon(":/icons/key"), tr("&Change Passphrase..."), this);
     changePassphraseAction->setStatusTip(tr("Change the passphrase used for wallet encryption"));
     signMessageAction = new QAction(QIcon(":/icons/edit"), tr("Sign &message..."), this);
-    signMessageAction->setStatusTip(tr("Sign messages with your Litecoin addresses to prove you own them"));
+    signMessageAction->setStatusTip(tr("Sign messages with your MapleCoin addresses to prove you own them"));
     verifyMessageAction = new QAction(QIcon(":/icons/transaction_0"), tr("&Verify message..."), this);
     verifyMessageAction->setStatusTip(tr("Verify messages to ensure they were signed with specified Litecoin addresses"));
 
@@ -359,7 +359,7 @@ void BitcoinGUI::createTrayIcon()
 #ifndef Q_OS_MAC
     trayIcon = new QSystemTrayIcon(this);
 
-    trayIcon->setToolTip(tr("Litecoin client"));
+    trayIcon->setToolTip(tr("Maplecoin client"));
     trayIcon->setIcon(QIcon(":/icons/toolbar"));
     trayIcon->show();
 #endif
@@ -599,7 +599,7 @@ void BitcoinGUI::setNumBlocks(int count, int nTotalBlocks)
 
 void BitcoinGUI::message(const QString &title, const QString &message, unsigned int style, bool *ret)
 {
-    QString strTitle = tr("Litecoin"); // default title
+    QString strTitle = tr("MapleCoin"); // default title
     // Default to information icon
     int nMBoxIcon = QMessageBox::Information;
     int nNotifyIcon = Notificator::Information;
