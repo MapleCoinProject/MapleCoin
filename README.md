@@ -4,7 +4,9 @@ Maplecoin integration/staging tree
 http://www.MapleCoin.info
 
 Copyright (c) 2009-2013 Bitcoin Developers
+
 Copyright (c) 2011 Litecoin Developers
+
 Copyright (c) 2014 Maplecoin Developers
 
 What is Maplecoin?
