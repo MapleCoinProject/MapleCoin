@@ -17,7 +17,7 @@ Maplecoin is a fork of Litecoin using scrypt as a proof-of-work algorithm.
  - subsidy halves in 241k blocks (~1 year)
  - ~2.4 billion total coins
  - 5000 coins per block
- - 2016 blocks to retarget difficulty
+ - 4 blocks to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
 the Maplecoin client sofware, see http://www.MapleCoin.info
