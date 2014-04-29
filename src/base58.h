@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin Developers
 // Copyright (c) 2011 The Litecoin Developers
-// Copyright (c) 2014 The MapleLitecoincoin Developers
+// Copyright (c) 2014 The Maplecoin Developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
