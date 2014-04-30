@@ -92,7 +92,7 @@ Value getworkex(const Array& params, bool fHelp)
         );
 
     if (vNodes.empty())
-        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "LMapleCoin is not connected!");
+        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "MapleCoin is not connected!");
 
     if (IsInitialBlockDownload())
         throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "MapleCoin is downloading blocks...");
