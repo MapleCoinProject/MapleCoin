@@ -128,9 +128,9 @@ test_litecoin.exe: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
 
 clean:
 	-rm -f obj/*.o
-	-rm -f litecoind.exe
+	-rm -f maplecoind.exe
 	-rm -f obj-test/*.o
-	-rm -f test_litecoin.exe
+	-rm -f test_maplecoin.exe
 	-rm -f obj/build.h
 	cd leveldb && TARGET_OS=OS_WINDOWS_CROSSCOMPILE $(MAKE) clean && cd ..
 
